@@ -1,0 +1,30 @@
+1>------ Build started: Project: Winsock2, Configuration: Debug Win32 ------
+1>Compiling...
+1>VWSocket.cpp
+1>c:\users\neo\desktop\winsock2\vwsocket.cpp(208) : warning C4101: 'szMessage' : unreferenced local variable
+1>c:\users\neo\desktop\winsock2\vwsocket.cpp(381) : warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+1>        d:\microsoft visual studio 9.0\vc\include\stdio.h(366) : see declaration of 'sprintf'
+1>Linking...
+1>LINK : fatal error LNK1000: Internal error during IncrBuildImage
+1>  Version 9.00.21022.08
+1>  ExceptionCode            = C0000005
+1>  ExceptionFlags           = 00000000
+1>  ExceptionAddress         = 0105FCF7 (00FE0000) "D:\Microsoft Visual Studio 9.0\VC\bin\link.exe"
+1>  NumberParameters         = 00000002
+1>  ExceptionInformation[ 0] = 00000000
+1>  ExceptionInformation[ 1] = 0012D670
+1>CONTEXT:
+1>  Eax    = 4051C4BC  Esp    = 0029F24C
+1>  Ebx    = 400081B4  Ebp    = 0029F274
+1>  Ecx    = 0012D670  Esi    = 4051C34C
+1>  Edx    = 0029F264  Edi    = 00FED6C0
+1>  Eip    = 0105FCF7  EFlags = 00010246
+1>  SegCs  = 0000001B  SegDs  = 00000023
+1>  SegSs  = 00000023  SegEs  = 00000023
+1>  SegFs  = 0000003B  SegGs  = 00000000
+1>  Dr0    = 00000000  Dr3    = 00000000
+1>  Dr1    = 00000000  Dr6    = 00000000
+1>  Dr2    = 00000000  Dr7    = 00000000
+1>Build log was saved at "file://c:\Users\Neo\Desktop\Winsock2\Debug\BuildLog.htm"
+1>Winsock2 - 1 error(s), 2 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
